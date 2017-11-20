@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mahdy.uts_pemogramanmobile_mahdy.SecondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan jumlah:"
+        android:textSize="20dp"
+        android:id="@+id/text1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:hint="masukan disini"
+        android:id="@+id/text22"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan jumlah:"
+        android:textSize="20dp"
+        android:layout_below="@id/text22"
+        android:id="@+id/text33"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukan disini"
+        android:layout_below="@id/text33"
+        android:id="@+id/edit1"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUAS"
+        android:layout_below="@id/edit1"
+        android:id="@+id/edit2"
+        android:layout_centerInParent="true"
+        android:onClick="hitungLuas"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit2"
+        android:text="keliling"
+        android:layout_centerInParent="true"/>
+    </RelativeLayout>
